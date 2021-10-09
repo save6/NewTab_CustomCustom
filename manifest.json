@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "coconala Search",
+    "description": "coconalaの「仕事・相談」で指定したキーワードで検索した結果を取得",
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "https://coconala.com/requests",
+      "storage"
+    ],
+    "options_page": "options.html"
+}
